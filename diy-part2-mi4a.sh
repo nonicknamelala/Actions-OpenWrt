@@ -13,3 +13,7 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
+cp mi4a/mt7621.mk openwrt/target/linux/ramips/image/mt7621.mk
+
+cp mi4a/mt7621_xiaomi_mi-router-4a-3g-v2.dtsi openwrt/target/linux/ramips/dts/mt7621_xiaomi_mi-router-4a-3g-v2.dtsi
+
