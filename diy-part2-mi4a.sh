@@ -15,5 +15,5 @@
 
 cp $GITHUB_WORKSPACE/mi4a/mt7621.mk target/linux/ramips/image/mt7621.mk
 
-cp $GITHUB_WORKSPACE/mi4a/mt7621_xiaomi_mi-router-4a-3g-v2.dtsi target/linux/ramips/dts/mt7621_xiaomi_mi-router-4a-3g-v2.dtsi
+cp $GITHUB_WORKSPACE/mi4a/mt7621_xiaomi_mi-router-4a-common.dtsi target/linux/ramips/dts/mt7621_xiaomi_mi-router-4a-common.dtsi
 
